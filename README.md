@@ -19,7 +19,7 @@ Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-loc
 This role relies on the following dependencies:
 
 * Roles: None
-* Collections: [collections.yml](https://github.com/escalate/ansible-raspberry-locale/blob/master/collections.yml)
+* Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-locale/blob/master/requirements.yml)
 
 ## Example Playbook
 
