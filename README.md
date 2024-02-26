@@ -1,14 +1,8 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-locale/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-locale/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-locale/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-locale/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Locale
 
 An Ansible role that manages [locale](https://wiki.debian.org/Locale) on Raspberry Pi OS (Debian Bookworm).
-
-## Install
-
-```
-$ ansible-galaxy install escalate.locale
-```
 
 ## Role Variables
 
@@ -20,6 +14,12 @@ This role relies on the following dependencies:
 
 * Roles: None
 * Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-locale/blob/master/requirements.yml)
+
+## Installation
+
+```
+$ ansible-galaxy role install escalate.locale
+```
 
 ## Example Playbook
 
